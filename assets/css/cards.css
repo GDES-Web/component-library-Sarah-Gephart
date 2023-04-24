@@ -1,0 +1,21 @@
+
+
+/*# sourceMappingURL=cards.css.map */
+.main-btn {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    color: var(--main-button-text-color);
+    background-color: var(--main-button-color);
+    border: none;
+    border-radius: 40px;
+    padding: 18px 100px;
+    margin: 10px;
+    transition: all .50s ease;
+}
+
+.main-btn.btn-default:hover {
+    background-color: var(--main-button-hover-color);
+    padding: 28px 110px;
+    margin: 0;
+    transition: all .50s ease;
+}

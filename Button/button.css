@@ -43,7 +43,7 @@
 
 /*MAIN BUTTON*/
 
-.main-button{
+.main-btn {
     font-family: "poppins", sans-serif;
     font-weight: 700;
     color: var(--main-button-text-color);
@@ -55,18 +55,19 @@
     transition: all .50s ease;
 }
 
-.main-button.button-default:hover {
+.main-btn.btn-default:hover {
     background-color: var(--main-button-hover-color);
-    padding: 25px 110px;
+    padding: 28px 110px;
+    margin: 0;
     transition: all .50s ease;
 }
 
-.main-button.active {
+.main-btn.active {
     background-color: var(--main-button-hover-color);
     padding: 25px 110px;
 }
 
-.main-button.inactive {
+.main-btn.inactive {
     background-color: var(--main-button-inactive-color)
 }
 
@@ -86,7 +87,8 @@
 
 .small-button.button-default:hover {
     background-color: var(--main-button-hover-color);
-    padding: 15px 55px;
+    padding: 20px 60px;
+    margin: 0;
     transition: all .50s ease;
 }
 
@@ -117,7 +119,8 @@
 
 .button-group1.button-default:hover {
     background-color: var(--main-button-hover-color);
-    padding: 10px 10px;
+    padding: 18px 18px;
+    margin: 0;
     transition: all .10s ease;
 }
 
@@ -148,7 +151,8 @@
     border: solid;
     color: var(--main-button-hover-color);
     border-color: var(--main-button-hover-color);
-    padding: 10px 10px;
+    padding: 18px 18px;
+    margin: 0;
     transition: all .10s ease;
 }
 
