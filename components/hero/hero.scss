@@ -1,0 +1,31 @@
+.hero-quote {
+    font-size: 30px;
+    display: block;
+    // width: 400px;
+    min-height: auto;
+    color: #8a5454;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: -5;
+    margin: 25px;
+    transition: all .5s ease;
+    
+    // span {
+    //     font-size: 12rem;
+    // }
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+    .hero-quote {
+        font-size: 15px;
+        transition: all .5s ease;
+    }
+}
