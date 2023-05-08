@@ -25,17 +25,22 @@
 .logo-button:hover {
     background-color: ($main-color);
     border-radius: 15px;
-    font-size: 20;
+    font-size: large;
     padding: 15px 20px;
     margin: 0;
     transition: all .50s ease;
 }
 
-  .navbar {
+  .nav-menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center
   }
+
+  .nav-link {
+    text-decoration: none;
+  }
+
 
 @media (max-width: 910px) {
     .nav-button {
